@@ -1,0 +1,18 @@
+%channel ID and read API key defined
+channelID = 2550856;
+readAPIKey = 'QFB10E71NQSWABG5';  
+% Read the 'most recent data point' from Field 1
+IrData = thingSpeakRead(channelID, 'Fields', 1, 'NumPoints', 1, 'ReadKey', readAPIKey);
+currentValue = IrData(end);
+fprintf("IR Sensor Value: %d \n", currentValue);
+%  outgoing message is set
+if (IrData == 0)
+    fprintf("Woke up\n");
+    % HTTP request URL defined
+    httpRequestUrl = 'https://api.thingspeak.com/apps/thinghttp/send_request?api_key=GGJUVJ8XF55TFMFA';
+    % Send the HTTP request
+    response = webread(httpRequestUrl);
+    fprintf("HTTP request sent. Response: %s\n", response);
+else                                            
+    fprintf("Sleeping \n");
+end
