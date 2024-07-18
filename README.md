@@ -18,3 +18,9 @@ Programming languages: Python, C
 Development frameworks: Arduino
 Cloud integration: ThingSpeak Cloud
 
+![image](https://github.com/user-attachments/assets/2a9c1cc2-fdd1-40d3-b03d-6d2c31ce1402)
+
+![image](https://github.com/user-attachments/assets/cd18d1f8-ae0e-405f-99b1-3df3a9450163)
+
+
+
