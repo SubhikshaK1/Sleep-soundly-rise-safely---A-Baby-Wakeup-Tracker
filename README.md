@@ -1,4 +1,33 @@
-# Sleep-soundly-rise-safely---A-Baby-Wakeup-Tracker
+<header>
+    <h1>👶 Sleep Soundly, Rise Safely</h1>
+    <p>An Automated, Low-Cost Safety Solution for Infant Monitoring</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>The Problem</h2>
+        <p>Infants under 2 years old are at high risk of bed falls without constant adult supervision. Standard monitors require parents to stay to a screen, leading to "monitoring fatigue."</p>
+    </section>
+    <div class="roi-grid">
+        <div class="card">
+            <h3>⏱️ Reclaiming Time</h3>
+            <p>Eliminated the need for manual video checking. The system uses <strong>Twilio API</strong> to call parents directly, allowing them to focus on work or rest until an alert is triggered.</p>
+        </div>
+        <div class="card">
+            <h3>💰 Cost Efficiency</h3>
+            <p>Built a "Smart" monitor at <strong>10% of the retail cost</strong>. By using Arduino and IR sensors, this system bypasses expensive subscriptions and high-end hardware price tags.</p>
+        </div>
+    </div>
+    <section>
+        <h2>How It Works</h2>
+        <p>This project integrates hardware-level detection with cloud-based notifications:</p>
+        <ul>
+            <li><strong>Edge Detection:</strong> IR sensor monitors movement states (0 for Awake, 1 for Sleep).</li>
+            <li><strong>Cloud Sync:</strong> Real-time data logging via <strong>ThingSpeak</strong> for sleep pattern analysis.</li>
+            <li><strong>Voice Alert:</strong> A Python script monitors the cloud state and triggers an immediate phone call via <strong>Twilio</strong>.</li>
+        </ul>
+    </section>
+   
 
 Situation: Infants under 2 years old are at risk of falling from bed without adult supervision.
 
@@ -21,6 +50,3 @@ Cloud integration: ThingSpeak Cloud
 ![image](https://github.com/user-attachments/assets/2a9c1cc2-fdd1-40d3-b03d-6d2c31ce1402)
 
 ![image](https://github.com/user-attachments/assets/cd18d1f8-ae0e-405f-99b1-3df3a9450163)
-
-
-
