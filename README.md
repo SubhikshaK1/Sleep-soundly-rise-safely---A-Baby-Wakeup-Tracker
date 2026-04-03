@@ -50,3 +50,5 @@ Cloud integration: ThingSpeak Cloud
 ![image](https://github.com/user-attachments/assets/2a9c1cc2-fdd1-40d3-b03d-6d2c31ce1402)
 
 ![image](https://github.com/user-attachments/assets/cd18d1f8-ae0e-405f-99b1-3df3a9450163)
+
+![video](https://github.com/SubhikshaK1/Sleep-soundly-rise-safely---A-Baby-Wakeup-Tracker/blob/31632a97057f743c792c3b3399299d6bec3e05e8/Demo%20sleep%20soundly%20rise%20safely%20%5Bsong%5D.mp4)
